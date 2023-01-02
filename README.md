@@ -10,13 +10,13 @@ I couldn't find a working example on the internet for using a nRF24L01(+) transc
 |-------------------------------------|-----------|
 | Pin 36 / 3V3 Out                    | VCC       |
 | Pin 38 / GND (or any other GND Pin) | GND       |
-| Pin 22 / GP17                       | CE        |
-| Pin 19 / GP14                       | CS        |
+| Pin 16 / GP12                       | CE        |
+| Pin 7 / GP5                         | CS        |
 | Pin 9 / GP6                         | SCK       |
 | Pin 10 / GP7                        | MOSI      |
 | Pin 6 / GP4                         | MISO      |
 
-![wiring-image](https://coffeebreakpoint.com/wp-content/uploads/2021/05/pico-nrf24L01_wiring.png)
+![wiring-image](assets/pico-nrf2401-wiring.png)
 
 **Note:** Add a capacitor between the VCC and GND pins of the nRF24L01 for better stability. In my case I added a 10uf capacitor which worked fine. 
 
